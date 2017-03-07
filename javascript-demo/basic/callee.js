@@ -2,6 +2,7 @@
  * Examples about the arguments.callee function.
  */
 //arguments.callee property contains the currently executing function
+console.log("callee.js");
 function factorial(n){
   if (n <= 0)
      return 1;
