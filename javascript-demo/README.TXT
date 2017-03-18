@@ -4,6 +4,7 @@ This project is an small Javascript project as reference with information gather
 * https://developer.mozilla.org
 * http://stackoverflow.com/
 * https://www.w3schools.com 
+* Professional JavaScript for Web Developers - Nicholas C. Zakas - ISBN 978-1-118-02669-4
 
 For this project following was used:
 * Eclipse Neon
