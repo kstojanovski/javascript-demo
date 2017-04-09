@@ -36,6 +36,14 @@ var list2 = leadingThirtysevenList();
 console.log(list2);// [37]
 var list3 = leadingThirtysevenList(1, 2, 3);
 console.log(list3);// [37, 1, 2, 3]
+// simplifying array slice call
+var unboundSlice = Array.prototype.slice;
+var slice = Function.prototype.call.bind(unboundSlice);
+function slicelist() {
+  return slice(arguments);
+}
+var slicelist = list(1, 2, 3); // [1, 2, 3]
+console.log(slicelist);
 
 
 /**
